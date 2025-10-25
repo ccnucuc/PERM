@@ -2,9 +2,11 @@
  * Ultimate Music Bot - 
  * 
  * @fileoverview 
- * @module ConfigurationManager
- * @version 1.0.0
- * @author GlaceYT
+ * host : pnode1.danbot.host
+port : 1351
+pass : cocaine 
+secure : false
+status : online
  */
 
 const EnvironmentVariableProcessor = require('process').env;
@@ -101,4 +103,5 @@ module.exports = primaryApplicationConfiguration;
  * Never share your bot token or database URI publicly!
  * Use environment variables in production!
  */
+
 
